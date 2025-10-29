@@ -13,5 +13,9 @@ if st.button('Click me'):
 nombre = st.text_input('Escribe tu nombre')
 st.write(nombre)
 
-
+if st.button('Registrar nombre'):
+    st.session_state['name'] = nombre
+    st.success(f"¡Nombre '{nombre}'
+registrado correctamente!")
+   
 st.write(st.session_state)
