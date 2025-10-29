@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("Ejemplo para usar sesion_state")
 
-count = 8
+count = 0
 
 increment = st.button("Increment")
 if increment:
