@@ -12,6 +12,6 @@ if st.button('Click me'):
    st.session_state['count'] += 1
 
 if st.button('Escribe tu nombre'):
-   st.session_state['name'] = 
+   st.session_state['name'] = '' 
    
 st.write(st.session_state)
